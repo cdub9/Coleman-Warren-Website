@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -516,7 +516,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .top-line {
-  padding-bottom: 7em;
+  padding-bottom: 4em;
 }
 .top-line .fh5co-heading {
   margin-bottom: 0 !important;
@@ -561,7 +561,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -604,7 +604,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .author {
   width: 100%;
   float: left;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .author .author-inner {
   background-size: cover;

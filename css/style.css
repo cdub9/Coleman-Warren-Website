@@ -1302,4 +1302,8 @@ blockquote .person cite {
   padding: 0 0 10px;
 }
 
+.hide {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

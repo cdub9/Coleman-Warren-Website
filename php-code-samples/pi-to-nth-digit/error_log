@@ -1,4 +1,0 @@
-[18-Dec-2016 15:32:10 America/Denver] PHP Warning:  bcdiv() expects parameter 3 to be long, string given in /home3/cwarrenb/public_html/colemanwarren.com/php-code-samples/pi-to-nth-digit/pi-to-nth-digit.php on line 14
-[18-Dec-2016 15:32:11 America/Denver] PHP Warning:  bcdiv() expects parameter 3 to be long, string given in /home3/cwarrenb/public_html/colemanwarren.com/php-code-samples/pi-to-nth-digit/pi-to-nth-digit.php on line 14
-[18-Dec-2016 15:33:57 America/Denver] PHP Fatal error:  Cannot redeclare pi() in /home3/cwarrenb/public_html/colemanwarren.com/php-code-samples/pi-to-nth-digit/pi-to-nth-digit.php on line 16
-[18-Dec-2016 15:33:59 America/Denver] PHP Fatal error:  Cannot redeclare pi() in /home3/cwarrenb/public_html/colemanwarren.com/php-code-samples/pi-to-nth-digit/pi-to-nth-digit.php on line 16

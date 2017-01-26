@@ -1048,9 +1048,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
   padding: 8px 20px;
 }
 .btn.btn-md {
@@ -1302,8 +1302,25 @@ blockquote .person cite {
   padding: 0 0 10px;
 }
 
+/*
+    Custom CSS added after 1/1/17
+*/
+
+div.headshot {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .hide {
   display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#thank-you:hover {
+  color: white;
+  text-shadow: 0px 0px 5px black;
 }
 
 /*# sourceMappingURL=style.css.map */

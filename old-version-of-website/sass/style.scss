@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
-.fh5co-nav {
+.nav {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -182,21 +182,21 @@ h1, h2, h3, h4, h5, h6, figure {
 	@media screen and (max-width: $screen-sm) {
 		padding: 20px 0;
 	}
-	.fh5co-top-logo,
-	.fh5co-top-menu,
-	.fh5co-top-social {
+	.top-logo,
+	.top-menu,
+	.top-social {
 		float: left;
 	}
-	.fh5co-top-logo {
+	.top-logo {
 		width: 20%;
 	}
-	.fh5co-top-menu {
+	.top-menu {
 		width: 60%;
 	}
-	.fh5co-top-social {
+	.top-social {
 		width: 20%;
 	}
-	#fh5co-logo {
+	#logo {
 		font-size: 20px;
 		margin: 0;
 		padding: 0;
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-weight: bold;
 		font-family: $font-primary;
 	}
-	.fh5co-social {
+	.social {
 		margin: 3px 0 0 0;
 		padding: 0;
 		li {
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		margin-bottom: 3em;
 	}
 }
-.fh5co-staff { 
+.staff { 
 	text-align: center;
 	margin-bottom: 30px;
 	img {
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-social-icons {
+.social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-contact-info {
+.contact-info {
 	ul {
 		padding: 0;
 		margin: 0;
@@ -460,16 +460,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-bg-section{
+.bg-section{
 	background: rgba($brand-black,.05);
 }
 
-#fh5co-started,
-#fh5co-author,
-#fh5co-work,
-#fh5co-about,
-#fh5co-contact,
-#fh5co-footer{
+#started,
+#author,
+#work,
+#about,
+#contact,
+#footer{
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
@@ -591,7 +591,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .top-line{
 	padding-bottom: 7em;
-	.fh5co-heading{
+	.heading{
 		margin-bottom: 0 !important;
 	}
 }
@@ -625,7 +625,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			font-size: 30px;
 			line-height: 45px;
 		}
-		.fh5co-highlight {
+		.highlight {
 			display: block;
 			font-size: 16px;
 			i {
@@ -637,9 +637,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-heading {
+.heading {
 	margin-bottom: 5em;
-	&.fh5co-heading-sm {
+	&.heading-sm {
 		margin-bottom: 2em;
 	}
 	h2 {
@@ -707,7 +707,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			margin-bottom: 20px;
 			letter-spacing: 1px;
 		}
-		.fh5co-social-icons {
+		.social-icons {
 			li {
 				a {
 					color: $brand-primary;
@@ -735,10 +735,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-started {
+#started {
 	background: rgba($brand-primary,1);
 	
-	.fh5co-heading {
+	.heading {
 		margin-bottom: 20px !important;
 		h2 {
 			color: $brand-white;
@@ -767,9 +767,9 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-footer {
+#footer {
 	background: #efefef;
-	.fh5co-footer-links {
+	.footer-links {
 		padding: 0;
 		margin: 0;	
 		li {
@@ -785,7 +785,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
-	.fh5co-widget {
+	.widget {
 		margin-bottom: 30px;
 		@media screen and (max-width: $screen-sm){
 			text-align: left;
@@ -808,7 +808,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // off canvas
-#fh5co-offcanvas {
+#offcanvas {
 	position: absolute;
 	z-index: 1901;
 	width: 270px;
@@ -834,7 +834,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			color: rgba(255,255,255,.8);
 		}
 	}
-	.fh5co-social {
+	.social {
 		margin-top: 20px;
 			li {
 				display: inline!important;
@@ -990,7 +990,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // Burger Menu
-.fh5co-nav-toggle {
+.nav-toggle {
   width:25px;
   height:25px;
   cursor: pointer;
@@ -1026,7 +1026,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		  transition:all .2s ease-out;
 	  }
   }
-  &.fh5co-nav-white {
+  &.nav-white {
   	> i {
   		color:$brand-white;
   		background: $brand-black;
@@ -1037,22 +1037,22 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-.fh5co-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.fh5co-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.fh5co-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px;
 }
-.fh5co-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px;
 }
-.fh5co-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.fh5co-nav-toggle.active i::before {
+.nav-toggle.active i::before {
 	background: $brand-white;
   top:0;
   -webkit-transform: rotateZ(45deg);
@@ -1061,7 +1061,7 @@ h1, h2, h3, h4, h5, h6, figure {
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.fh5co-nav-toggle.active i::after {
+.nav-toggle.active i::after {
 	background: $brand-white;
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
@@ -1070,7 +1070,7 @@ h1, h2, h3, h4, h5, h6, figure {
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.fh5co-nav-toggle {
+.nav-toggle {
   position: absolute;
   right: 0px;
   top: 10px;
@@ -1260,7 +1260,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding-bottom: 2em!important;
 }
 
-.fh5co-loader {
+.loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
